@@ -1,0 +1,110 @@
+/*****BASE STYLES *****/
+
+body{
+  font-family: 'Roboto Slab', serif;
+  color: #095156;
+  background-color: #adcdcb;
+}
+
+  /*****GRID*****/
+
+.full-width {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1400px;
+}
+.half-width{
+  width: 700px;
+  float: right;
+}
+.third-width{
+  width: 487px;
+}
+
+
+  /*****HEADER*****/
+header{
+  background: url('../img/background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+header h1{
+  color: #edb668;
+  font-family: 'Roboto Slab' serif;
+  font-size: 60px;
+  padding: 20px 0px 100px 150px;
+}
+nav {
+   float: right;
+   margin: 50px;
+   padding: 0px 0px;
+}
+nav ul li{
+   display: inline-block;
+   margin: 5px;
+}
+nav ul li a {
+   color: #edb668;
+   font-size: 24px;
+   text-transform: capitalize;
+   text-decoration:underline;
+}
+
+  /*****WORK*****/
+
+#work .full-width h2{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+/* By making my work descriptions a little longer I was able to make my padding and h3s fit perfectly.*/
+#work img{
+  padding: 0px 43px 0px 43px;
+  margin: 43px;
+
+}
+#work p{
+  padding:0px 43px 300px 0px;
+}
+
+  /*****ABOUT*****/
+#about-me .full-width h2{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+#about-me .half-width p{
+  font-weight: bold;
+  text-align: left;
+  margin: 10px 220px 400px 50px;
+}
+#about-me .half-width img{
+  margin: 10px 400px 50px 200px;
+}
+
+  /*****CONTACT*****/
+
+#contact .full-width{
+  background-color: #244083;/*should be a dark blue.*/
+  height: 300px;
+  width:auto;
+}
+#contact .full-width h2{
+      color: #edb668;
+      text-align: center;
+}
+#contact .half-width ul li{/****No link attached because I do not have twitter but wanted the symmetry*****/
+  display:inline-block;
+  margin: 50px;
+}
+#contact .half-width p{
+  color: #edb668;
+  font-size: 24px;
+  margin: 20px 0px 43px 0px;
+  padding: 45px 0px 45px 0px;
+  text-align: center;
+}
+#contact .half-width a{
+  color: #edb668;
+}

@@ -1,0 +1,160 @@
+body{
+  background: #DAF7F6;
+  font-family: 'Open Sans','Sans serif';
+  font-size: 12px;
+  line-height: 16px;
+  color: #3B3B3B;
+}
+
+header{
+  background: white;
+  text-align: center;
+}
+
+h1{
+  color: #F16059;
+  display: inline-block;
+  font-family: 'Montserrat', 'sans serif';
+  font-size: 48px;
+  font-weight: bold;
+  Margin: 0;
+  padding: 40px,0;
+  text-transform: uppercase;
+}
+
+header img{
+  margin-right: 16px;
+}
+
+main{
+  width: 1000px;
+  margin: auto;
+}
+
+/******CLASS STYLING******/
+/***REMEMBER TO CLOSE YOUR STYLE SECTIONS AND THAT # THEN(.) FOR AN IMAGE****/
+
+.card{
+  margin: 25px,0;
+  overflow: auto;
+}
+
+.image{
+  float:left;
+  width: 500px;
+  height: 550px;
+}
+
+.recipe{
+      background: white;
+      box-sizing: border-box;
+      float: left;
+      height: 550px;
+      padding: 20px;
+      width: 500px;
+}
+
+#cookies .image{
+    background-image: url('../img/gluten-free-sugar-cookies.jpg');
+    background-size: cover;
+
+}
+
+#pesto .image{
+    background-image: url('../img/nut-free-pesto.jpg');
+    background-size: cover;
+}
+
+#salad .image{
+   background-image: url('../img/watermelon-salad.jpg');
+   background-size: cover;
+}
+/***Styling the h2 elements in the recipe class****/
+
+.recipe h2{
+    color: #F16059;
+    font-family:'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.time{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #3B3B3B;
+    margin-bottom: 20px;
+    overflow: auto;
+  }
+/****make sure you know where the div class is and what you are working with, also lining up the border, doesn't do what you think it is going to so spell it out like above****/
+
+.time div{
+    box-sizing: border-box;
+    float:left;
+    padding-left: 6px;
+    text-transform: uppercase;
+    width: 33.333%;
+}
+
+.time .cook{
+  border-width: 0 1px;
+  border-style: solid;
+  border-color: #3B3B3B;
+}
+
+.time img{
+      margin-right: 5px;
+      vertical-align: middle;
+      height: auto;
+      width: 15px;
+}
+
+.time-details{
+      display:inline-block;
+}
+
+.time strong{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/****Putting the ingredients and directions in two columns*****/
+
+.columns{
+    overflow: auto;
+}
+
+.ingredients{
+        float: left;
+        width: 205px;
+        margin-right: 15px;
+}
+
+.directions{
+    float:left;
+    width: 240px;
+}
+
+.recipe h3{
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #3B3B3B;
+    color: #F16059;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 6px;
+    text-transform: uppercase;
+}
+
+.ingredients ul{
+    padding-left: 15px;
+    line-height:  24px;
+    list-style-type: square
+}
+
+.directions ol{
+    padding-left: 15px;
+    line-height: 22px;
+}

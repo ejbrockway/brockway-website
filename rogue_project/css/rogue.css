@@ -1,0 +1,118 @@
+/*****BASE STYES*****/
+
+body{
+  font-family: 'montserrat';
+}
+
+/*****GRID*****/
+
+.full-width{
+      margin: 19px auto;
+      overflow:auto;
+      width:1240px;
+}
+.half-width{
+      width: 620px;
+      float: left;
+}
+.third-width{
+      width: 413px;
+      float: left;
+}
+
+/*****HEADER*****/
+header h1{
+    Color: Black;
+    font-family: 'montserrat' bold;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+h1 span{
+  color:#77a466;
+}
+
+nav{
+    float: right;
+    padding: 19px;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: #77a466;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration:none;
+    padding-left: 10px;
+}
+
+/*****Welcome Including Photo*****/
+
+#welcome .full-width{
+    padding: 10px;
+}
+
+#welcome img#hero-img{
+    align-content: center;
+    border: 2px solid #77a446;
+    margin-left: 0px;
+}
+
+#welcome h2{
+    color: #77a446;
+    font-size:18px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+#welcome p{
+    color: black;
+    font: 'montserrat';
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+
+/*****Rogue Info*****/
+
+#info .full-width{
+    padding-top: 30px;
+}
+
+#info .third-width{
+    border: 1px solid grey;
+    height: 209px;
+    padding: 30px;
+    text-align: left;
+    text-indent: inherit;
+    width: 350px;
+}
+
+#info h3{
+    color: black;
+    font: 'montserrat' bold;
+    font-size: 12px;
+    text-indent: 33px;
+}
+
+#info p{
+    text-align: left;
+}
+
+#info ul li{
+    Color: #77a446;
+    line-height: 32px;
+}
+
+/*****Rogue Footer*****/
+
+footer{
+    font-size: 16px;
+    text-align: center;
+}
+h4 span{
+    Color:#77a466;
+    font-family: 'Pacifico' cursive;
+    text-transform: lowercase;
+}
